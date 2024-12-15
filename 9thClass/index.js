@@ -89,23 +89,23 @@
 // outer(); // Output: "I am outer"
 
 
-// function a(){
-//      let x=10
-//     function b(){
-//         var y=25
+function a(){
+     let x=10
+    function b(){
+        var y=25
         
-//         function c() {
-//          let  z=32
-//          console.log(x+y+z);
-//          console.log(this);
+        function c() {
+         let  z=32
+         console.log(x+y+z);
+         console.log(this);
          
          
-//         }
-//         c()
+        }
+        c()
        
        
-//     }
-//     b();
+    }
+    b();
 
     
     
